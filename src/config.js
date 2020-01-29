@@ -1,11 +1,13 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "pk_test_EcClJPHNcC59yMtYMTriyOMJ00ZaAmcfht",
   s3: {
     REGION: "us-east-1",
     BUCKET: "canoja-notes-app-uploads"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://8lanr3jgd2.execute-api.us-east-1.amazonaws.com/prod/"
+    URL: "https://8lanr3jgd2.execute-api.us-east-1.amazonaws.com/prod"
   },
   cognito: {
     REGION: "us-east-1",
